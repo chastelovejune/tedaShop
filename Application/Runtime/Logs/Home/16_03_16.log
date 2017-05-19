@@ -1,0 +1,6 @@
+[ 2016-03-16T11:07:34+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/shopCar
+ERR: 模板不存在:./Application/Home/View/Shop/shopCar.html
+
+[ 2016-03-16T11:59:20+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/addBuyCar/id/12
+ERR: 非法操作:addBuyCar
+

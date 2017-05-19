@@ -1,0 +1,855 @@
+[ 2017-02-03T10:10:11+08:00 ] ::1 /shop/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003582s ]
+NOTIC: [8] Undefined index: admin D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017541s ]
+
+[ 2017-02-03T10:10:11+08:00 ] ::1 /shop/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Undefined index: admin D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-02-03T10:10:14+08:00 ] ::1 /shop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012839s ]
+
+[ 2017-02-03T10:10:14+08:00 ] ::1 /shop/index.php/Admin/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2017-02-03T10:10:14+08:00 ] ::1 /shop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-02-03T10:10:30+08:00 ] ::1 /shop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_admin` [ RunTime:0.044211s ]
+SQL: SELECT * FROM `cz_admin` WHERE `admin_name` = 'admin' AND `password` = '0192023a7bbd73250516f069df18b500' LIMIT 1   [ RunTime:0.034458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-02-03T10:10:33+08:00 ] ::1 /shop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-02-03T10:10:46+08:00 ] ::1 /shop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-02-03T10:10:50+08:00 ] ::1 /shop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003936s ]
+
+[ 2017-02-03T10:11:09+08:00 ] ::1 /shop/index.php/Admin/Login/code/0.8869873321695316
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-02-03T10:11:15+08:00 ] ::1 /shop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_admin` [ RunTime:0.002967s ]
+SQL: SELECT * FROM `cz_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-02-03T10:11:16+08:00 ] ::1 /shop/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.044508s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.065107s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.040134s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.062630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: shop_url D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-02-03T10:11:16+08:00 ] ::1 /shop/index.php/Admin/Index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-02-03T10:11:16+08:00 ] ::1 /shop/index.php/Admin/Index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.010682s ]
+SQL: SELECT * FROM `cz_auth_group_access` WHERE `group_id` = 1 LIMIT 1   [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `cz_auth_group` [ RunTime:0.003201s ]
+SQL: SELECT * FROM `cz_auth_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.004774s ]
+SQL: SELECT * FROM `cz_auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.021674s ]
+SQL: SELECT * FROM `cz_auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT * FROM `cz_auth_rule` WHERE `id` = 3 LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT * FROM `cz_auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT * FROM `cz_auth_rule` WHERE `id` = 9 LIMIT 1   [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2017-02-03T10:11:16+08:00 ] ::1 /shop/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-02-03T10:11:17+08:00 ] ::1 /shop/index.php/Admin/Index/drag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2017-02-03T10:11:18+08:00 ] ::1 /shop/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003125s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.003506s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003350s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-02-03T10:11:20+08:00 ] ::1 /shop/index.php/Admin/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003312s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002668s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-02-03T10:11:21+08:00 ] ::1 /shop/index.php/Admin/Type/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.002763s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.005081s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-02-03T10:11:21+08:00 ] ::1 /shop/index.php/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.002725s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002559s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-02-03T10:11:22+08:00 ] ::1 /shop/index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003284s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.003384s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-02-03T10:11:23+08:00 ] ::1 /shop/index.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003040s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002640s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.034832s ]
+SQL: SELECT cz_order.order_sn,cz_user.user_name,cz_address.telephone,cz_order.order_status,cz_shipping.shipping_name,cz_shipping.shipping_fee,cz_payment.pay_name,cz_order.order_amount FROM `cz_order` INNER JOIN cz_user on cz_user.user_id = cz_order.user_id INNER JOIN cz_address on cz_address.address_id = cz_order.address_id INNER JOIN cz_shipping on cz_shipping.shipping_id = cz_order.shipping_id INNER JOIN cz_payment on cz_payment.pay_id = cz_order.pay_id   [ RunTime:0.080881s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-02-03T10:11:25+08:00 ] ::1 /shop/index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.045302s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.003795s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-02-03T10:11:26+08:00 ] ::1 /shop/index.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003078s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.003251s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-02-03T10:11:27+08:00 ] ::1 /shop/index.php/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003101s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002998s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-02-03T10:11:27+08:00 ] ::1 /shop/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003024s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002768s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002988s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-02-03T10:11:32+08:00 ] ::1 /shop/index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.002772s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002974s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-02-03T10:11:33+08:00 ] ::1 /shop/index.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.002729s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002615s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-02-03T10:11:33+08:00 ] ::1 /shop/index.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003043s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002759s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-02-03T10:11:34+08:00 ] ::1 /shop/index.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003207s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002778s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2017-02-03T10:11:34+08:00 ] ::1 /shop/index.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.002888s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002682s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-02-03T10:11:35+08:00 ] ::1 /shop/index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003042s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002797s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-02-03T10:11:36+08:00 ] ::1 /shop/index.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.002742s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.003457s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\shop\Application\Runtime\Cache\Admin\18bc66a7b6334412ab8e61a2539ecfbd.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-02-03T10:11:37+08:00 ] ::1 /shop/index.php/Admin/Order/phpexcel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003370s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.002915s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003104s ]
+SQL: SELECT cz_order.order_sn,cz_user.user_name,cz_address.telephone,cz_order.order_status,cz_shipping.shipping_name,cz_shipping.shipping_fee,cz_payment.pay_name,cz_order.order_amount FROM `cz_order` INNER JOIN cz_user on cz_user.user_id = cz_order.user_id INNER JOIN cz_address on cz_address.address_id = cz_order.address_id INNER JOIN cz_shipping on cz_shipping.shipping_id = cz_order.shipping_id INNER JOIN cz_payment on cz_payment.pay_id = cz_order.pay_id   [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001862s ]
+
+[ 2017-02-03T10:11:38+08:00 ] ::1 /shop/index.php/Admin/Order/phpexcel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] Use of undefined constant top - assumed 'top' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant drag - assumed 'drag' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant main - assumed 'main' D:\xampp\htdocs\shop\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth_group_access` [ RunTime:0.003466s ]
+SQL: SELECT `rules` FROM cz_auth_group_access a INNER JOIN cz_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `cz_auth_rule` [ RunTime:0.004954s ]
+SQL: SELECT `condition`,`name` FROM `cz_auth_rule` WHERE `id` IN ('1','2','3','8','9') AND `type` = 1 AND `status` = 1  [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.005980s ]
+SQL: SELECT cz_order.order_sn,cz_user.user_name,cz_address.telephone,cz_order.order_status,cz_shipping.shipping_name,cz_shipping.shipping_fee,cz_payment.pay_name,cz_order.order_amount FROM `cz_order` INNER JOIN cz_user on cz_user.user_id = cz_order.user_id INNER JOIN cz_address on cz_address.address_id = cz_order.address_id INNER JOIN cz_shipping on cz_shipping.shipping_id = cz_order.shipping_id INNER JOIN cz_payment on cz_payment.pay_id = cz_order.pay_id   [ RunTime:0.001083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+

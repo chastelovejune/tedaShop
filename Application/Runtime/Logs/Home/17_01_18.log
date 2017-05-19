@@ -1,0 +1,84 @@
+[ 2017-01-18T16:30:26+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.017371s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000488s ]
+ERR: Redis server went away
+
+[ 2017-01-18T16:32:08+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003775s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000393s ]
+ERR: Redis server went away
+
+[ 2017-01-18T16:33:25+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002802s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000334s ]
+ERR: Redis server went away
+
+[ 2017-01-18T16:34:06+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003785s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.032153s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.008868s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000516s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000389s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003063s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.003290s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: user D:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: goods_id D:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001872s ]
+
+[ 2017-01-18T21:43:44+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012562s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.098814s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000736s ]
+ERR: Redis server went away
+

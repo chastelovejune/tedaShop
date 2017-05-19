@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SHOP 管理中心 - 品牌管理 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="{$Think.const.ADMIN_PUBLIC}/styles/general.css" rel="stylesheet" type="text/css" />
+<link href="{$Think.const.ADMIN_PUBLIC}/styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<h1>
+<span class="action-span1"><a href="index.php?act=main">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 订单列表 </span>
+<div style="clear:both"></div>
+</h1>
+
+<div class="form-div">
+  <form action="{:U('Admin/Order/index')}" method="post">
+    <img src="{$Think.const.ADMIN_PUBLIC}/images/icon_view.gif" width="26" height="22" border="0" alt="SEARCH">
+     <input type="text" name="order_name" size="15">
+    <input type="submit" value=" 搜索 " class="button">
+      <a  style="margin-left: 5px"  class="button" href="{:U('Admin/Order/phpexcel')}">导出Excel</a>
+  </form>
+
+</div>
+
+<form method="post" action="" name="listForm">
+<!-- start brand list -->
+<div class="list-div" id="listDiv">
+
+  <table cellpadding="3" cellspacing="1">
+    <tbody>
+		<tr>
+			<th>订单号(单击查看订单详情)</th>
+			<th>用户名</th>
+			<th>联系电话</th>
+			<th>订单状态</th>
+			<th>送货方式</th>
+      <th>快递费用</th>
+			<th>支付方式</th>
+      <th>总金额</th>
+		</tr>
+      <volist name="order" id="vo">
+        <tr>
+      <td class="first-cell" style="margin-left: 10px"><a href="../data/brandlogo/1240803062307572427.gif" target="_brank">{$vo.order_sn}</a>
+      </td>
+      <td align="center">{$vo.user_name}</td>
+      <td align="center" >{$vo.telephone}</td>
+      <td align="center">{$vo.order_status}</span></td>
+      <td align="center">{$vo.shipping_name}</td>
+      <td align="center">{$vo.shipping_fee}</td>
+      <td align="center">{$vo.pay_name}</td>
+       <td align="center">{$vo.order_amount}</td>
+
+      
+    </tr>
+    </volist>
+    <tr>
+		<td align="right" nowrap="true" colspan="6">
+            <div id="turn-page">
+            {$page}
+     
+      </div>
+      </td>
+    </tr>
+  </tbody>
+
+  </table>
+
+<!-- end brand list -->
+</div>
+</form>
+
+
+<div id="footer">
+	<include file="Public/end" />
+</div>
+
+</body>
+</html>

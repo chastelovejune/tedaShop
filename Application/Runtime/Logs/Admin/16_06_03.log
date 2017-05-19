@@ -1,0 +1,9 @@
+[ 2016-06-03T14:44:13+08:00 ] ::1 /shop/index.php/Admin/Goods/goods.php?act=edit&goods_id=32
+ERR: 非法操作:goods.php
+
+[ 2016-06-03T14:44:17+08:00 ] ::1 /shop/index.php/Admin/goods.php?id=32
+ERR: 无法加载控制器:Goods.php
+
+[ 2016-06-03T14:44:55+08:00 ] ::1 /shop/index.php/Admin/Category/goods.php?act=list&cat_id=1
+ERR: 非法操作:goods.php
+

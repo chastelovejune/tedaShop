@@ -1,0 +1,105 @@
+[ 2016-03-11T09:05:48+08:00 ] ::1 /shop/index.php/Home/Myshop/member
+ERR: 无法加载控制器:Myshop
+
+[ 2016-03-11T09:06:14+08:00 ] ::1 /shop/index.php/Home/Myshop
+ERR: 无法加载控制器:Myshop
+
+[ 2016-03-11T09:06:16+08:00 ] ::1 /shop/index.php/Home/Myshop/member
+ERR: 无法加载控制器:Myshop
+
+[ 2016-03-11T09:06:31+08:00 ] ::1 /shop/index.php/Home/Myshop
+ERR: 无法加载控制器:Myshop
+
+[ 2016-03-11T09:06:50+08:00 ] ::1 /shop/index.php/Home/Myshop
+ERR: 无法加载控制器:Myshop
+
+[ 2016-03-11T09:07:00+08:00 ] ::1 /shop/index.php/Home/myshop
+ERR: 无法加载控制器:Myshop
+
+[ 2016-03-11T09:07:42+08:00 ] ::1 /shop/index.php/Home/myshop
+ERR: 无法加载控制器:Myshop
+
+[ 2016-03-11T09:07:53+08:00 ] ::1 /shop/index.php/Home/myshop
+ERR: 无法加载控制器:Myshop
+
+[ 2016-03-11T09:09:33+08:00 ] ::1 /shop/index.php/Home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:10:09+08:00 ] ::1 /shop/index.php/Home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:10:09+08:00 ] ::1 /shop/index.php/Home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:10:10+08:00 ] ::1 /shop/index.php/Home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:10:10+08:00 ] ::1 /shop/index.php/Home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:10:10+08:00 ] ::1 /shop/index.php/Home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:10:10+08:00 ] ::1 /shop/index.php/Home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:10:10+08:00 ] ::1 /shop/index.php/Home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:10:14+08:00 ] ::1 /shop/index.php/Home/shop/index
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:11:20+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:11:51+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:11:52+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 无法加载控制器:Shop
+
+[ 2016-03-11T09:12:48+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 模板不存在:./Application/Home/View/Shop/index.html
+
+[ 2016-03-11T09:13:08+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 模板不存在:./Application/Home/View/Shop/index.html
+
+[ 2016-03-11T09:13:10+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 模板不存在:./Application/Home/View/Shop/index.html
+
+[ 2016-03-11T09:13:12+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 模板不存在:./Application/Home/View/Shop/index.html
+
+[ 2016-03-11T09:13:17+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 模板不存在:./Application/Home/View/Shop/index.html
+
+[ 2016-03-11T09:13:19+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 模板不存在:./Application/Home/View/Shop/index.html
+
+[ 2016-03-11T09:13:20+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 模板不存在:./Application/Home/View/Shop/index.html
+
+[ 2016-03-11T09:13:29+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 模板不存在:./Application/Home/View/Shop/index.html
+
+[ 2016-03-11T09:13:31+08:00 ] ::1 /shop/index.php/home/shop
+ERR: 模板不存在:./Application/Home/View/Shop/index.html
+
+[ 2016-03-11T09:13:49+08:00 ] ::1 /shop/index.php/home/css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2016-03-11T09:13:49+08:00 ] ::1 /shop/index.php/home/css/shop_common.css
+ERR: 无法加载控制器:Css
+
+[ 2016-03-11T09:13:49+08:00 ] ::1 /shop/index.php/home/css/shop_header.css
+ERR: 无法加载控制器:Css
+
+[ 2016-03-11T09:13:49+08:00 ] ::1 /shop/index.php/home/css/shop_manager.css
+ERR: 无法加载控制器:Css
+
+[ 2016-03-11T09:13:49+08:00 ] ::1 /shop/index.php/home/js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2016-03-11T09:13:49+08:00 ] ::1 /shop/index.php/home/js/topNav.js
+ERR: 无法加载控制器:Js
+

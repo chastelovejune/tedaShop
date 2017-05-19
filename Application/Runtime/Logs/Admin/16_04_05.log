@@ -1,0 +1,30 @@
+[ 2016-04-05T18:17:26+08:00 ] ::1 /shop/index.php/Admin/Goods/index
+ERR: XML标签语法错误 : condition={$vo.onsale} eq 1
+
+[ 2016-04-05T18:17:26+08:00 ] ::1 /shop/index.php/Admin/Goods/%7B$Thi...')%3Cbr%20/%3E
+ERR: 非法操作:{$Thi...')
+
+[ 2016-04-05T18:18:09+08:00 ] ::1 /shop/index.php/Admin/Goods/index
+ERR: XML标签语法错误 : condition={$vo.onsale}." eq 1"
+
+[ 2016-04-05T18:18:10+08:00 ] ::1 /shop/index.php/Admin/Goods/%7B$Thi...')%3Cbr%20/%3E
+ERR: 非法操作:{$Thi...')
+
+[ 2016-04-05T18:28:48+08:00 ] ::1 /shop/index.php/Admin/goods.php?id=32
+ERR: 无法加载控制器:Goods.php
+
+[ 2016-04-05T18:29:50+08:00 ] ::1 /shop/index.php/Admin/Index/order.php?act=back_list
+ERR: 非法操作:order.php
+
+[ 2016-04-05T18:29:51+08:00 ] ::1 /shop/index.php/Admin/Index/order.php?act=delivery_list
+ERR: 非法操作:order.php
+
+[ 2016-04-05T18:29:51+08:00 ] ::1 /shop/index.php/Admin/Index/order.php?act=add
+ERR: 非法操作:order.php
+
+[ 2016-04-05T18:29:52+08:00 ] ::1 /shop/index.php/Admin/Index/order.php?act=list
+ERR: 非法操作:order.php
+
+[ 2016-04-05T18:30:33+08:00 ] ::1 /shop/index.php/Admin/Category/category.php?act=move&cat_id=1
+ERR: 非法操作:category.php
+

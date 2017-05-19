@@ -1,0 +1,51 @@
+[ 2016-03-10T15:35:35+08:00 ] ::1 /shop/index.php/Home/Login/register
+ERR: 非法数据对象！:[username=>admin]
+
+[ 2016-03-10T15:36:14+08:00 ] ::1 /shop/index.php/Home/Login/register
+ERR: 非法数据对象！:[username=>test]
+
+[ 2016-03-10T15:52:01+08:00 ] ::1 /shop/index.php/Home/Login/register
+ERR: 错误的查询条件:[username=>admin]
+
+[ 2016-03-10T16:00:21+08:00 ] ::1 /shop/index.php/Home/Login/register
+ERR: 非法数据对象！:[username=>admin]
+
+[ 2016-03-10T16:01:31+08:00 ] ::1 /shop/index.php/Home/Login/register
+ERR: 非法数据对象！:[username=>admin2141]
+
+[ 2016-03-10T16:05:00+08:00 ] ::1 /shop/index.php/Home/Login/register
+ERR: 非法数据对象！:[username=>admin2141]
+
+[ 2016-03-10T16:06:19+08:00 ] ::1 /shop/index.php/Home/Login/register
+ERR: 非法数据对象！:[username=>test]
+
+[ 2016-03-10T20:15:48+08:00 ] ::1 /shop/index.php/Home/controller/login/index
+ERR: 无法加载控制器:Controller
+
+[ 2016-03-10T20:16:08+08:00 ] ::1 /shop/index.php/Home/controller/login/index
+ERR: 无法加载控制器:Controller
+
+[ 2016-03-10T20:16:10+08:00 ] ::1 /shop/index.php/Home/controller/login/index
+ERR: 无法加载控制器:Controller
+
+[ 2016-03-10T23:39:32+08:00 ] ::1 /shop/index.php/Home/Login/css/base.css
+ERR: 非法操作:css
+
+[ 2016-03-10T23:39:32+08:00 ] ::1 /shop/index.php/Home/Login/js/topNav.js
+ERR: 非法操作:js
+
+[ 2016-03-10T23:39:32+08:00 ] ::1 /shop/index.php/Home/Login/css/shop_common.css
+ERR: 非法操作:css
+
+[ 2016-03-10T23:39:32+08:00 ] ::1 /shop/index.php/Home/Login/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-03-10T23:39:32+08:00 ] ::1 /shop/index.php/Home/Login/css/shop_header.css
+ERR: 非法操作:css
+
+[ 2016-03-10T23:39:32+08:00 ] ::1 /shop/index.php/Home/Login/css/shop_manager.css
+ERR: 非法操作:css
+
+[ 2016-03-10T23:39:32+08:00 ] ::1 /shop/index.php/Home/Login/css/shop_form.css
+ERR: 非法操作:css
+

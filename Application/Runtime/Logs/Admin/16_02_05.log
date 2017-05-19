@@ -1,0 +1,168 @@
+[ 2016-02-05T08:27:22+08:00 ] ::1 /index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003648s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant Login - assumed 'Login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [2] Division by zero D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+
+[ 2016-02-05T08:27:25+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant Login - assumed 'Login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [2] Division by zero D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-05T08:27:29+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant Login - assumed 'Login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [2] Division by zero D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-02-05T08:27:32+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant Login - assumed 'Login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [2] Division by zero D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+
+[ 2016-02-05T08:27:37+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001980s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant Login - assumed 'Login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [2] Division by zero D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001087s ]
+
+[ 2016-02-05T08:28:08+08:00 ] ::1 /index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant Login - assumed 'Login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [2] Division by zero D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-02-05T08:28:11+08:00 ] ::1 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant Login - assumed 'Login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [2] Division by zero D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+
+[ 2016-02-05T08:28:14+08:00 ] ::1 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant Login - assumed 'Login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+NOTIC: [2] Division by zero D:\wamp\www\Application\Admin\Controller\BaseController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+

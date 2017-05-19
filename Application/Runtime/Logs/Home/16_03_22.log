@@ -1,0 +1,21 @@
+[ 2016-03-22T20:04:16+08:00 ] ::1 /shop/index.php/Home/Shop/css/shop_common.css
+ERR: 非法操作:css
+
+[ 2016-03-22T20:04:16+08:00 ] ::1 /shop/index.php/Home/Shop/js/topNav.js
+ERR: 非法操作:js
+
+[ 2016-03-22T20:04:16+08:00 ] ::1 /shop/index.php/Home/Shop/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-03-22T20:04:16+08:00 ] ::1 /shop/index.php/Home/Shop/css/base.css
+ERR: 非法操作:css
+
+[ 2016-03-22T20:04:16+08:00 ] ::1 /shop/index.php/Home/Shop/css/shop_manager.css
+ERR: 非法操作:css
+
+[ 2016-03-22T20:04:16+08:00 ] ::1 /shop/index.php/Home/Shop/css/shop_header.css
+ERR: 非法操作:css
+
+[ 2016-03-22T20:04:17+08:00 ] ::1 /shop/index.php/Home/Shop/js/topNav.js
+ERR: 非法操作:js
+

@@ -1,0 +1,2100 @@
+[ 2017-05-17T12:45:57+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.045003s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.039002s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.005000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: num C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: goods_id C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-17T12:46:00+08:00 ] ::1 /shop/index.php/Home/Goods/index/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 7 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_goods_attr` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cz_goods_attr` WHERE `goods_id` = 7  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\63839bc489ada1b251c78e0251f28b7d.php 第 23 行.
+NOTIC: [8] Undefined variable: num C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\63839bc489ada1b251c78e0251f28b7d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-05-17T12:46:02+08:00 ] ::1 /shop/index.php/Home/Shop/addcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T12:46:05+08:00 ] ::1 /shop/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.032002s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.006001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: num C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: goods_id C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-05-17T12:46:07+08:00 ] ::1 /shop/index.php/Home/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T12:46:08+08:00 ] ::1 /shop/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-17T12:48:31+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.048002s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '13612165425' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.002001s ]
+
+[ 2017-05-17T12:51:47+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003001s ]
+
+[ 2017-05-17T12:51:50+08:00 ] ::1 /shop/index.php/Home/Login/code/0.916841495630839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.023001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-17T12:51:58+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.027002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '13612165425' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.005001s ]
+
+[ 2017-05-17T12:52:00+08:00 ] ::1 /shop/index.php/Home/Login/code/0.12760494352054486
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T12:52:06+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '13612165425' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.004000s ]
+
+[ 2017-05-17T12:52:17+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.023002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+
+[ 2017-05-17T12:52:19+08:00 ] ::1 /shop/index.php/Home/Login/code/0.45075857663015895
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T12:52:27+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-17T12:52:27+08:00 ] ::1 /shop/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.041003s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.005001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.002001s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goods_id C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T12:54:26+08:00 ] ::1 /shop/index.php/Home/Shop/shopCar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.025002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE `user_id` = '1'  [ RunTime:0.007001s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` LIMIT 1   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.098006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.098006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-17T12:54:31+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.063004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.064004s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.030001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003001s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=8 ) [ RunTime:0.002000s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=8 )  [ RunTime:0.001000s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=180 WHERE ( goods_id=8 ) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T12:54:32+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.022002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.008000s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=8 ) [ RunTime:0.002000s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=8 )  [ RunTime:0.002000s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=0 WHERE ( goods_id=8 ) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-17T12:54:33+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=8 ) [ RunTime:0.002001s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=8 )  [ RunTime:0.001000s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=180 WHERE ( goods_id=8 ) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T12:54:34+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=4 ) [ RunTime:0.001000s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=4 )  [ RunTime:0.001000s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=4497 WHERE ( goods_id=4 ) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T13:19:00+08:00 ] ::1 /shop/index.php/Home/Shop/shopcar2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:1.077062s ]
+SQL: SELECT * FROM `cz_address` WHERE `user_name` = '刘定邦'  [ RunTime:0.002000s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_goods.shop_price,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.042002s ]
+SQL: SELECT * FROM `cz_shipping`  [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_payment` [ RunTime:0.055003s ]
+SQL: SELECT * FROM `cz_payment`  [ RunTime:0.004000s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-17T13:19:03+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.021002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.018001s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.054003s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1494998343,'1','5677.00',5687) [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: mapping_name C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.046002s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.003000s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (4,'小米NOTE','./Public/Uploads/2016-04-09/5708d63856516.jpg',3,'1499.00','4497.00') [ RunTime:0.003001s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (7,'小米2','./Public/Uploads/2016-04-09/5708f9ed214cc.jpg',1,'1000.00','1000.00') [ RunTime:0.002000s ]
+
+[ 2017-05-17T13:24:35+08:00 ] ::1 /shop/index.php/Home/Shop/shopcar2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.029001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `cz_address` WHERE `user_name` = '刘定邦'  [ RunTime:0.004000s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_goods.shop_price,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cz_shipping`  [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_payment` [ RunTime:0.026001s ]
+SQL: SELECT * FROM `cz_payment`  [ RunTime:0.010001s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-05-17T13:24:37+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.027002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.035002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.005001s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.026001s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.028002s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1494998677,'1','5677.00',5687) [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: mapping_name C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.016001s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.001000s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (4,'小米NOTE','./Public/Uploads/2016-04-09/5708d63856516.jpg',3,'1499.00','4497.00') [ RunTime:0.001000s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (7,'小米2','./Public/Uploads/2016-04-09/5708f9ed214cc.jpg',1,'1000.00','1000.00') [ RunTime:0.001001s ]
+
+[ 2017-05-17T14:03:52+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.004001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: goods_id C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-05-17T14:04:06+08:00 ] ::1 /shop/index.php/Home/Goods/index/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 7 LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_goods_attr` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_goods_attr` WHERE `goods_id` = 7  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T14:04:25+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002001s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:19+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.026002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.026002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.026001s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:21+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:30+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:32+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003001s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:46+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:47+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:48+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:48+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.006000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:48+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:48+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:49+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:06:58+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.035002s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.013001s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:07:00+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:07:12+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:07:13+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001001s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:07:13+08:00 ] ::1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:09:02+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:09:18+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:09:36+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:10:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:10:56+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+NOTIC: [2] require_once(../lib/WxPay.Notify.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 6 行.
+
+[ 2017-05-17T14:11:24+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.027002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004000s ]
+NOTIC: [2] fopen(../logs/2017-05-17.log): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\log.php 第 16 行.
+
+[ 2017-05-17T14:12:34+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.028002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.006000s ]
+
+[ 2017-05-17T14:13:24+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+
+[ 2017-05-17T14:13:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+
+[ 2017-05-17T14:13:42+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+
+[ 2017-05-17T14:14:20+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+
+[ 2017-05-17T14:14:21+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+
+[ 2017-05-17T14:14:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.035002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+
+[ 2017-05-17T14:14:57+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+
+[ 2017-05-17T14:15:05+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.033002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.005000s ]
+NOTIC: [2] fopen(../logs/2017-05-17.log): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\log.php 第 16 行.
+
+[ 2017-05-17T14:15:06+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.023001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004000s ]
+NOTIC: [2] fopen(../logs/2017-05-17.log): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\log.php 第 16 行.
+
+[ 2017-05-17T14:15:08+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+NOTIC: [2] fopen(../logs/2017-05-17.log): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\log.php 第 16 行.
+
+[ 2017-05-17T14:15:34+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.005000s ]
+NOTIC: [2] require_once(../lib/WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 5 行.
+
+[ 2017-05-17T14:15:53+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.023001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.009000s ]
+NOTIC: [2] require_once(../lib/WxPay.Notify.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\notify.php 第 7 行.
+
+[ 2017-05-17T14:16:03+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+NOTIC: [2] fopen(../logs/2017-05-17.log): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\log.php 第 16 行.
+
+[ 2017-05-17T15:15:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.039002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.006000s ]
+NOTIC: [2] fopen(../logs/2017-05-17.log): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\WxpayAPI\example\log.php 第 16 行.
+
+[ 2017-05-17T16:18:30+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: num C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: goods_id C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-17T16:19:02+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/index/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 11 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_goods_attr` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cz_goods_attr` WHERE `goods_id` = 11  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\63839bc489ada1b251c78e0251f28b7d.php 第 23 行.
+NOTIC: [8] Undefined variable: num C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\63839bc489ada1b251c78e0251f28b7d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-17T16:22:42+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/addcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.019002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:22:46+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.023001s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.023002s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: user C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: num C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: goods_id C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-05-17T16:22:48+08:00 ] 127.0.0.1 /shop/index.php/Home/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.019002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-17T16:22:49+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.046002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-17T16:22:58+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/code/0.2325680656900262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.029002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-17T16:22:59+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/code/0.27826558713159644
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:23:00+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/code/0.5938443179356641
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:23:01+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/code/0.31785374720870774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:23:02+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/code/0.04625465913516991
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:23:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.031002s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '13612165425' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:23:13+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/code/0.20991239989510024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:23:14+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/code/0.36722224854526764
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:23:20+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.057003s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.056003s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '13612165425' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.004001s ]
+
+[ 2017-05-17T16:23:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:23:42+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/code/0.06875268093795872
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:23:48+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.026001s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:23:48+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.025001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.022002s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.026002s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goods_id C:\xampp\htdocs\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:23:52+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/shopCar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.052003s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.053003s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE `user_id` = '1'  [ RunTime:0.004000s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-17T16:24:02+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/shopcar2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_address` WHERE `user_name` = '刘定邦'  [ RunTime:0.001000s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_goods.shop_price,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.021002s ]
+SQL: SELECT * FROM `cz_shipping`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_payment` [ RunTime:0.025001s ]
+SQL: SELECT * FROM `cz_payment`  [ RunTime:0.002000s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:24:05+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.025002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.017001s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.026002s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1495009445,'1','5677.00',5687) [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: mapping_name C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.033002s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.002000s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (4,'小米NOTE','./Public/Uploads/2016-04-09/5708d63856516.jpg',3,'1499.00','4497.00') [ RunTime:0.002000s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (7,'小米2','./Public/Uploads/2016-04-09/5708f9ed214cc.jpg',1,'1000.00','1000.00') [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:24:56+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/shopcar2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_address` WHERE `user_name` = '刘定邦'  [ RunTime:0.001000s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_goods.shop_price,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.027001s ]
+SQL: SELECT * FROM `cz_shipping`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_payment` [ RunTime:0.030002s ]
+SQL: SELECT * FROM `cz_payment`  [ RunTime:0.002000s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:25:03+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.028002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:26:04+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.055003s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.055003s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-17T16:27:02+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.040002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.045002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-05-17T16:28:35+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.028001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.021002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:32:32+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-17T16:32:33+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:34:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\shop\Application\Home\Controller\ShopController.class.php 第 209 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:34:13+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\shop\Application\Home\Controller\ShopController.class.php 第 209 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:34:24+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-17T16:35:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:35:47+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.026002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+
+[ 2017-05-17T16:37:26+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.025001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.027001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+
+[ 2017-05-17T16:37:35+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:37:55+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:38:06+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\shop\Application\Home\Controller\ShopController.class.php 第 209 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:39:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:41:50+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003001s ]
+
+[ 2017-05-17T16:42:07+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.033002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.006001s ]
+
+[ 2017-05-17T16:42:29+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.035002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-17T16:45:01+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:49:02+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.028002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.037002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.004000s ]
+NOTIC: [2] require_once(./WxPay.Api.php): failed to open stream: No such file or directory C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\weixinpay\lib\WxPay.NativePay.php 第 2 行.
+
+[ 2017-05-17T16:49:31+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:50:37+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002001s ]
+
+[ 2017-05-17T16:51:06+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.032002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:51:18+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:51:26+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.024002s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+ERR: curl出错，错误码:60
+
+[ 2017-05-17T16:53:06+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant flase - assumed 'flase' C:\xampp\htdocs\shop\ThinkPHP\Library\Vendor\weixinpay\lib\WxPay.Api.php 第 553 行.
+ERR: curl出错，错误码:60
+
+[ 2017-05-17T16:54:34+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.025001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T16:56:30+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-17T16:57:53+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.025001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.033002s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-17T17:02:55+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-05-17T17:18:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/shopcar2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T17:19:09+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/shopcar2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `cz_address` WHERE `user_name` = '刘定邦'  [ RunTime:0.001000s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_goods.shop_price,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `cz_shipping`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_payment` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cz_payment`  [ RunTime:0.000000s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-17T17:19:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.017001s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.016001s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1495012752,'1','5677.00',5687) [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: mapping_name C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.014001s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.001000s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (4,'小米NOTE','./Public/Uploads/2016-04-09/5708d63856516.jpg',3,'1499.00','4497.00') [ RunTime:0.002000s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (7,'小米2','./Public/Uploads/2016-04-09/5708f9ed214cc.jpg',1,'1000.00','1000.00') [ RunTime:0.001001s ]
+
+[ 2017-05-17T17:19:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: notify C:\xampp\htdocs\shop\Application\Home\Controller\ShopController.class.php 第 220 行.
+
+[ 2017-05-17T17:20:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Shop/Wxpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

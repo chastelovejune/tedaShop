@@ -1,0 +1,6 @@
+[ 2016-05-26T09:24:19+08:00 ] ::1 /shop/index.php/Admin/goods.php?id=32
+ERR: 无法加载控制器:Goods.php
+
+[ 2016-05-26T09:24:24+08:00 ] ::1 /shop/index.php/Admin/Goods/goods.php?act=product_list&goods_id=32
+ERR: 非法操作:goods.php
+

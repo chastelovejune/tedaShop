@@ -1,0 +1,38 @@
+[ 2016-06-01T14:42:47+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003200s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010625s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001001s ]
+
+[ 2016-06-01T14:42:59+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003564s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.012692s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.049069s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.012251s ]
+
+[ 2016-06-01T14:43:30+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003561s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011944s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009934s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000926s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.012507s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.043789s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','2','hen hao ',1464763410,'1','2179.00',2189) [ RunTime:0.015734s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.053358s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.009179s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000944s ]
+

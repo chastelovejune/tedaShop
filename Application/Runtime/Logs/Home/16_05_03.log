@@ -1,0 +1,32 @@
+[ 2016-05-03T13:11:53+08:00 ] ::1 /shop/
+ERR: No connection could be made because the target machine actively refused it.
+
+
+[ 2016-05-03T15:17:52+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003542s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000432s ]
+
+[ 2016-05-03T16:11:43+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003205s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.048304s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.000433s ]
+
+[ 2016-05-03T17:03:18+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007629s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.005981s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.000740s ]
+

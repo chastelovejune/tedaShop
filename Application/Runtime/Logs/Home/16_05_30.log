@@ -1,0 +1,30 @@
+[ 2016-05-30T12:20:32+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003327s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008231s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.057270s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.015833s ]
+
+[ 2016-05-30T12:20:56+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003635s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008334s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008692s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000951s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.007941s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.039482s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','2','ni hao ',1464582056,'1','2179.00',2189) [ RunTime:0.009557s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.061999s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.013344s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000762s ]
+

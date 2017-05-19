@@ -1,0 +1,108 @@
+[ 2016-08-01T11:23:08+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005237s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.039760s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.029621s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.023961s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000490s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000388s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.010951s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004218s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.000417s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.004310s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: num D:\wamp\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2016-08-01T11:23:11+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008599s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.003994s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000492s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000383s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000329s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004141s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.003883s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: num D:\wamp\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-08-01T11:23:18+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004054s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.004040s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_best` = 1 AND `is_onsale` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000483s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000371s ]
+SQL: SELECT * FROM `cz_goods` WHERE `is_new` = 1 ORDER BY goods_id desc LIMIT 4   [ RunTime:0.000347s ]
+SQL: SELECT * FROM `cz_goods` WHERE `cat_id` > 15 ORDER BY goods_id desc LIMIT 6   [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004189s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=16 ) LIMIT 6   [ RunTime:0.000333s ]
+SQL: SELECT * FROM `cz_category` WHERE ( parent_id=15 ) LIMIT 6   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.003667s ]
+SQL: SELECT * FROM `cz_goods` ORDER BY click_count desc LIMIT 5   [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: num D:\wamp\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: goods_id D:\wamp\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+

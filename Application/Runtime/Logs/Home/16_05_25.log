@@ -1,0 +1,1531 @@
+[ 2016-05-25T13:17:19+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003534s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000376s ]
+
+[ 2016-05-25T13:17:26+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003652s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000362s ]
+
+[ 2016-05-25T13:17:33+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003698s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.003728s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.000403s ]
+
+[ 2016-05-25T13:17:46+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003571s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003415s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000351s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003508s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003742s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464153466,'1','2179.00',2189) [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003501s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 255 行.
+ERR: 非法数据对象！:[$key=>Array]
+
+[ 2016-05-25T13:17:53+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003863s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004487s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000398s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004886s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003621s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464153473,'1','2179.00',2189) [ RunTime:0.000286s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003574s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 255 行.
+ERR: 非法数据对象！:[$key=>Array]
+
+[ 2016-05-25T13:18:40+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003937s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003598s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000363s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003437s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003949s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464153520,'1','2179.00',2189) [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003429s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 255 行.
+ERR: 非法数据对象！:[$key=>Array]
+
+[ 2016-05-25T13:19:25+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005063s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003938s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000358s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003843s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003894s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464153565,'1','2179.00',2189) [ RunTime:0.000318s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003569s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 255 行.
+ERR: 非法数据对象！:[$key=>Array]
+
+[ 2016-05-25T13:22:17+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005779s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003859s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000360s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003500s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004791s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464153737,'1','2179.00',2189) [ RunTime:0.000340s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003480s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000294s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000254s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T13:22:38+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004507s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003920s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000357s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003564s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004244s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464153758,'1','2179.00',2189) [ RunTime:0.000322s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003842s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000273s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000257s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T13:23:12+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003724s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.005634s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000345s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004588s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004768s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464153792,'1','2179.00',2189) [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003979s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000346s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000285s ]
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:10:50+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003627s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003397s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000431s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004337s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003575s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464156650,'1','2179.00',2189) [ RunTime:0.000508s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000466s ]
+
+[ 2016-05-25T14:11:34+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004455s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003588s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000354s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003322s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003899s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464156694,'1','2179.00',2189) [ RunTime:0.000324s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000385s ]
+
+[ 2016-05-25T14:11:55+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003858s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004243s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000380s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003582s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.005263s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464156715,'1','2179.00',2189) [ RunTime:0.000289s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003850s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000360s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000281s ]
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:35:47+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004497s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003734s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000351s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003503s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004325s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464158147,'1','2179.00',2189) [ RunTime:0.000321s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004294s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),() [ RunTime:0.000251s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),()
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),() [ RunTime:0.000223s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),()
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 189 行.
+
+[ 2016-05-25T14:39:05+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.006062s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004701s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000682s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003593s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004768s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464158345,'1','2179.00',2189) [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004376s ]
+SQL: INSERT INTO `cz_order_goods` (`order_sn`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),(1464158345) [ RunTime:0.000279s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` (`order_sn`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),(1464158345)
+SQL: INSERT INTO `cz_order_goods` (`order_sn`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),(1464158345),(1464158345) [ RunTime:0.000266s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` (`order_sn`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),(1464158345),(1464158345)
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 189 行.
+
+[ 2016-05-25T14:39:59+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005631s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004729s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000436s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003815s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004276s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464158399,'1','2179.00',2189) [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004410s ]
+SQL: INSERT INTO `cz_order_goods` (`order_sn`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),(1464158399) [ RunTime:0.000257s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` (`order_sn`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),(1464158399)
+SQL: INSERT INTO `cz_order_goods` (`order_sn`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),(1464158399),(1464158399) [ RunTime:0.000225s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` (`order_sn`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),(1464158399),(1464158399)
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 189 行.
+
+[ 2016-05-25T14:42:34+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004840s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003818s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000365s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003751s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003927s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464158554,'1','2179.00',2189) [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003951s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),() [ RunTime:0.000253s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),()
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),() [ RunTime:0.000342s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),()
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 190 行.
+
+[ 2016-05-25T14:43:44+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.006229s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003765s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000338s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.005878s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003629s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464158624,'1','2179.00',2189) [ RunTime:0.000308s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.005387s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),() [ RunTime:0.000305s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),()
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),() [ RunTime:0.000280s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),()
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:44:50+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004394s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003739s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000373s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004638s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004818s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464158690,'1','2179.00',2189) [ RunTime:0.000356s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003803s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),() [ RunTime:0.000266s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),()
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),() [ RunTime:0.000240s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),()
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:45:12+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005107s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003574s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000356s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004300s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003800s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464158712,'1','2179.00',2189) [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003910s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),() [ RunTime:0.000517s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),()
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),() [ RunTime:0.000224s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),()
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:46:21+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004084s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003708s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000419s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003547s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004200s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464158781,'1','2179.00',2189) [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003725s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:49:55+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004059s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003493s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000369s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003552s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003678s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464158995,'1','2179.00',2189) [ RunTime:0.000356s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003552s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:51:55+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003639s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003397s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000349s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003351s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003699s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159115,'1','2179.00',2189) [ RunTime:0.000328s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003511s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:51:57+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003648s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003418s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000335s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003405s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003929s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159117,'1','2179.00',2189) [ RunTime:0.000315s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003442s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:52:01+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003527s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003648s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000392s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003594s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003794s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159121,'1','2179.00',2189) [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003593s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:52:05+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003598s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003569s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000391s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003637s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003434s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159125,'1','2179.00',2189) [ RunTime:0.000331s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003708s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:52:50+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003396s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003376s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000374s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003742s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003575s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1464159170,1,'2179.00',2189) [ RunTime:0.000345s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003498s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:52:53+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004396s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003334s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000350s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003779s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004927s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1464159173,1,'2179.00',2189) [ RunTime:0.000345s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003543s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:52:53+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003635s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003842s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000361s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003383s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003451s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1464159173,1,'2179.00',2189) [ RunTime:0.000311s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003530s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:52:53+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004190s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003603s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000408s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003684s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003983s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1464159173,1,'2179.00',2189) [ RunTime:0.000352s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004278s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:53:02+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003475s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004125s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000470s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003698s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003499s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159182,'1','2179.00',2189) [ RunTime:0.000316s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003974s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:53:06+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004203s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004127s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000379s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003881s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004466s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159186,'1','2179.00',2189) [ RunTime:0.000349s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003834s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:53:48+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003921s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003428s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000346s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003909s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003696s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159228,'1','2179.00',2189) [ RunTime:0.000336s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003727s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:53:56+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004205s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003792s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000383s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004826s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003497s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159235,'1','2179.00',2189) [ RunTime:0.000315s ]
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.005087s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:55:08+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003858s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003567s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000352s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003533s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003599s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159308,'1','2179.00',2189) [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004090s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:55:12+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003912s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003576s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000385s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004214s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003990s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159312,'1','2179.00',2189) [ RunTime:0.000337s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004798s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T14:56:19+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003731s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003630s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000334s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003227s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004467s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159379,'1','2179.00',2189) [ RunTime:0.000339s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003543s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),() [ RunTime:0.000203s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),()
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),() [ RunTime:0.000184s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),()
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 189 行.
+
+[ 2016-05-25T14:57:21+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005687s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003513s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000359s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.005427s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003559s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159441,'1','2179.00',2189) [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004100s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000354s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000274s ]
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:58:08+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004072s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000393s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003527s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004581s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159488,'1','2179.00',2189) [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003488s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),() [ RunTime:0.000235s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),()
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),() [ RunTime:0.000197s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),()
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:58:26+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004212s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003602s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000334s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004280s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003795s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159506,'1','2179.00',2189) [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003480s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 255 行.
+ERR: 非法数据对象！:[$key=>Array]
+
+[ 2016-05-25T14:58:52+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003893s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003492s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000366s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003989s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003844s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159532,'1','2179.00',2189) [ RunTime:0.000317s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003617s ]
+NOTIC: [8] Undefined index: key D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 188 行.
+NOTIC: [8] Undefined index: key D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 188 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:59:17+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004492s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004481s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000518s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004066s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.005017s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159557,'1','2179.00',2189) [ RunTime:0.000629s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.007002s ]
+NOTIC: [8] Undefined index: key D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 188 行.
+NOTIC: [8] Undefined index: key D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 188 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:59:23+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003610s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004538s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000407s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003377s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004339s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159563,'1','2179.00',2189) [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004156s ]
+NOTIC: [8] Undefined index: key D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 188 行.
+NOTIC: [8] Undefined index: key D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 188 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T14:59:26+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002504s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003902s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003925s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000380s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004581s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003915s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159566,'1','2179.00',2189) [ RunTime:0.000292s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003954s ]
+NOTIC: [8] Undefined index: key D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 188 行.
+NOTIC: [8] Undefined index: key D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 188 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T15:00:02+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003909s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004243s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000381s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004299s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003909s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159602,'1','2179.00',2189) [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004438s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000338s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T15:00:26+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003413s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004065s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000374s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003486s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003798s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159626,'1','2179.00',2189) [ RunTime:0.000647s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003659s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000315s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000261s ]
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 191 行.
+
+[ 2016-05-25T15:00:52+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004103s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003601s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000437s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004161s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004017s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159652,'1','2179.00',2189) [ RunTime:0.000349s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003665s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000300s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000277s ]
+
+[ 2016-05-25T15:00:58+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005208s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004045s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000376s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003740s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003910s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159658,'1','2179.00',2189) [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003695s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000317s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000269s ]
+
+[ 2016-05-25T15:01:49+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003735s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004160s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000436s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003532s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003838s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159709,'1','2179.00',2189) [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004144s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000323s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000269s ]
+
+[ 2016-05-25T15:04:03+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003663s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.004629s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.000379s ]
+
+[ 2016-05-25T15:04:49+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003944s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004589s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000383s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003461s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004276s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159889,'1','2179.00',2189) [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000401s ]
+
+[ 2016-05-25T15:05:46+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005393s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003469s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000381s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003810s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003964s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159946,'1','2179.00',2189) [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003792s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000323s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000245s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000260s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000265s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+
+[ 2016-05-25T15:06:08+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003810s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003539s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000357s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003440s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003982s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159968,'1','2179.00',2189) [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003834s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000340s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000253s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000283s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000370s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+
+[ 2016-05-25T15:06:21+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003963s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004014s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000440s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003882s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004470s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464159981,'1','2179.00',2189) [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004538s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000304s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000252s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000264s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000253s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+
+[ 2016-05-25T15:08:08+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004272s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003844s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000355s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003293s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003972s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160088,'1','2179.00',2189) [ RunTime:0.000303s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003406s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000236s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000196s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000209s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000186s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+
+[ 2016-05-25T15:10:29+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003626s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003637s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000325s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003757s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003566s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160229,'1','2179.00',2189) [ RunTime:0.000375s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003950s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000360s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000235s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000268s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000244s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+
+[ 2016-05-25T15:11:41+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003712s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003546s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000360s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004216s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003858s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160301,'1','2179.00',2189) [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003809s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000251s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000236s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T15:12:41+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004617s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004496s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000427s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004798s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.005108s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160361,'1','2179.00',2189) [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.005907s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000376s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000289s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T15:12:42+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003803s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003688s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000387s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003349s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.005232s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160362,'1','2179.00',2189) [ RunTime:0.000311s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003627s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000280s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000197s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T15:13:56+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004666s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.003604s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.000460s ]
+
+[ 2016-05-25T15:14:24+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005750s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004449s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000402s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004445s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003496s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160464,'1','2179.00',2189) [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003903s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000274s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db.class.php 第 686 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES () [ RunTime:0.000512s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 310 行.
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T15:15:50+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003577s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004064s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000398s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004463s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004224s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160550,'1','2179.00',2189) [ RunTime:0.000326s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003292s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 255 行.
+ERR: 非法数据对象！:[$key=>Array]
+
+[ 2016-05-25T15:16:21+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004008s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.005066s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000397s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.003964s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003873s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160581,'1','2179.00',2189) [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.004630s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),() [ RunTime:0.000235s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),()
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),() [ RunTime:0.000248s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),()
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T15:16:35+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004094s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.004004s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000376s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004946s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004805s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160595,'1','2179.00',2189) [ RunTime:0.000353s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.005357s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),() [ RunTime:0.000238s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00'),()
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Model.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 272 行.
+NOTIC: [2] array_walk() expects parameter 1 to be array, null given D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 277 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 285 行.
+SQL: INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),() [ RunTime:0.000433s ]
+ERR: 1136:Column count doesn't match value count at row 1
+ [ SQL语句 ] : INSERT INTO `cz_order_goods` () VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00'),()
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T15:17:09+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003915s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.003491s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000651s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.004420s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003783s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464160629,'1','2179.00',2189) [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.003851s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.000346s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+
+[ 2016-05-25T21:27:06+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.006285s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.054714s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.016613s ]
+
+[ 2016-05-25T21:27:22+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.006101s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009829s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000841s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.006231s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.036192s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1464182841,'1','2179.00',2189) [ RunTime:0.014696s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SELECT cz_goods.goods_id,cz_goods.goods_name,cz_goods.goods_img,cz_shopcart.goods_num,cz_shopcart.goods_price,cz_shopcart.subtotal FROM `cz_shopcart` INNER JOIN cz_goods ON cz_goods.goods_id = cz_shopcart.goods_id  WHERE ( user_id=1 )  [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.060714s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (8,'短裙','./Public/Uploads/2016-04-13/570d8d318a3e6.jpg',1,'180.00','180.00') [ RunTime:0.015922s ]
+SQL: INSERT INTO `cz_order_goods` (`goods_id`,`goods_name`,`goods_img`,`goods_num`,`goods_price`,`subtotal`) VALUES (5,'小米5','./Public/Uploads/2016-04-09/5708d69587c48.jpg',1,'1999.00','1999.00') [ RunTime:0.000324s ]
+NOTIC: [8] Undefined index: order_amount D:\wamp\www\shop\Application\Home\Controller\ShopController.class.php 第 192 行.
+

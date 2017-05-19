@@ -1,0 +1,15 @@
+[ 2016-03-07T17:58:47+08:00 ] ::1 /shop/
+ERR: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-03-07T17:59:46+08:00 ] ::1 /shop/
+ERR: Base 'shop' inconnue
+
+[ 2016-03-07T17:59:47+08:00 ] ::1 /shop/
+ERR: Base 'shop' inconnue
+
+[ 2016-03-07T17:59:48+08:00 ] ::1 /shop/
+ERR: Base 'shop' inconnue
+
+[ 2016-03-07T17:59:48+08:00 ] ::1 /shop/
+ERR: Base 'shop' inconnue
+

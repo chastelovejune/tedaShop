@@ -1,0 +1,891 @@
+[ 2016-05-19T06:36:49+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008651s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.051374s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '张三' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.001018s ]
+
+[ 2016-05-19T06:40:22+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003563s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008279s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008254s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000914s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=7 ) [ RunTime:0.000938s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000756s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=2000 WHERE ( goods_id=7 ) [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002325s ]
+
+[ 2016-05-19T06:40:23+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008205s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009268s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000945s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000904s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000843s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=1000 WHERE ( goods_id=7 ) [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002665s ]
+
+[ 2016-05-19T06:40:25+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003240s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008715s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009246s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.001050s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=8 ) [ RunTime:0.000757s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=8 )  [ RunTime:0.000838s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=360 WHERE ( goods_id=8 ) [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002198s ]
+
+[ 2016-05-19T06:40:26+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003340s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008913s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008284s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000945s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=8 ) [ RunTime:0.000771s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=8 )  [ RunTime:0.000816s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=540 WHERE ( goods_id=8 ) [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002258s ]
+
+[ 2016-05-19T06:40:27+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003227s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008100s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009394s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000931s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=8 ) [ RunTime:0.000742s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=8 )  [ RunTime:0.000914s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=360 WHERE ( goods_id=8 ) [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002482s ]
+
+[ 2016-05-19T06:40:27+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003227s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008427s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008254s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000923s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=8 ) [ RunTime:0.000824s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=8 )  [ RunTime:0.000755s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=180 WHERE ( goods_id=8 ) [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002284s ]
+
+[ 2016-05-19T06:40:30+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010451s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008332s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000937s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=7 ) [ RunTime:0.000771s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000782s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=2000 WHERE ( goods_id=7 ) [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002479s ]
+
+[ 2016-05-19T06:40:32+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003684s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007997s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.007913s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000939s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=8 ) [ RunTime:0.000767s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=8 )  [ RunTime:0.000758s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=0 WHERE ( goods_id=8 ) [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002461s ]
+
+[ 2016-05-19T06:40:38+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003837s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008235s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008256s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000904s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=8 ) [ RunTime:0.000762s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=8 )  [ RunTime:0.000759s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=180 WHERE ( goods_id=8 ) [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002448s ]
+
+[ 2016-05-19T06:40:53+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003446s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008808s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008903s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000921s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000690s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000702s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=1000 WHERE ( goods_id=7 ) [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002574s ]
+
+[ 2016-05-19T06:40:54+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003148s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008531s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008238s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000916s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=7 ) [ RunTime:0.000746s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000779s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=2000 WHERE ( goods_id=7 ) [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2016-05-19T06:40:57+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003552s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008380s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.007900s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000923s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000738s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000757s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=1000 WHERE ( goods_id=7 ) [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002194s ]
+
+[ 2016-05-19T06:40:58+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003196s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008155s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008085s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000890s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=7 ) [ RunTime:0.000756s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000856s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=2000 WHERE ( goods_id=7 ) [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2016-05-19T06:40:59+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003274s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009101s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009413s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.001035s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000840s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.001027s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=1000 WHERE ( goods_id=7 ) [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002541s ]
+
+[ 2016-05-19T06:40:59+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003333s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010042s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.010319s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.001407s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=7 ) [ RunTime:0.000820s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000924s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=2000 WHERE ( goods_id=7 ) [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003040s ]
+
+[ 2016-05-19T06:41:00+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003358s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008301s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009304s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.001497s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000824s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000901s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=1000 WHERE ( goods_id=7 ) [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002821s ]
+
+[ 2016-05-19T06:41:01+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003559s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008319s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009502s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.001019s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=7 ) [ RunTime:0.000774s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000776s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=2000 WHERE ( goods_id=7 ) [ RunTime:0.000910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2016-05-19T06:41:03+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003896s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008489s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008016s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000929s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000861s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000786s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=1000 WHERE ( goods_id=7 ) [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002191s ]
+
+[ 2016-05-19T06:41:05+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008852s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008368s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000947s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=7 ) [ RunTime:0.000760s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000739s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=2000 WHERE ( goods_id=7 ) [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002261s ]
+
+[ 2016-05-19T06:41:12+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003455s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008302s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008241s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000933s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000789s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000771s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=1000 WHERE ( goods_id=7 ) [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002447s ]
+
+[ 2016-05-19T06:41:13+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003623s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008772s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009096s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000911s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000726s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000749s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=0 WHERE ( goods_id=7 ) [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002402s ]
+
+[ 2016-05-19T06:41:14+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008156s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008596s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000900s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000764s ]
+ERR: 1690:BIGINT UNSIGNED value is out of range in '(`shopcz`.`cz_shopcart`.`goods_num` - 1)'
+ [ SQL语句 ] : UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2016-05-19T06:41:14+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003196s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008093s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008373s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.001074s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000711s ]
+ERR: 1690:BIGINT UNSIGNED value is out of range in '(`shopcz`.`cz_shopcart`.`goods_num` - 1)'
+ [ SQL语句 ] : UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2016-05-19T06:41:31+08:00 ] ::1 /shop/index.php/Home/Shop/minus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008004s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008585s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.000911s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 ) [ RunTime:0.000733s ]
+ERR: 1690:BIGINT UNSIGNED value is out of range in '(`shopcz`.`cz_shopcart`.`goods_num` - 1)'
+ [ SQL语句 ] : UPDATE `cz_shopcart` SET `goods_num`=goods_num-1 WHERE ( goods_id=7 )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2016-05-19T06:46:42+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003829s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.013959s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.010216s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.000980s ]
+
+[ 2016-05-19T06:46:49+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003729s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009221s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008686s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000997s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008818s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008134s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611609,1,'180.00',190) [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.008498s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:46:53+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003677s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009146s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009899s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001013s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008519s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008502s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611612,1,'180.00',190) [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.008250s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:46:55+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004039s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008780s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008721s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000909s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008231s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008511s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611615,1,'180.00',190) [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.008900s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:46:55+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003764s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008478s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009155s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001003s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.007852s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.007959s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611615,1,'180.00',190) [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.008291s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:46:56+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004745s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010535s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.009899s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000978s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.009817s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.010376s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611616,1,'180.00',190) [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.010124s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:47:07+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003875s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008343s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.007956s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000953s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008189s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.007839s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611627,1,'180.00',190) [ RunTime:0.000780s ]
+
+[ 2016-05-19T06:47:42+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004438s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007840s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008003s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000927s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.007729s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008137s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611662,1,'180.00',190) [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.008057s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:47:46+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003640s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008395s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008598s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000903s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008130s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008191s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611666,1,'180.00',190) [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.008282s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:47:47+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003432s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011987s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.011552s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001189s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.009988s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.012168s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611667,1,'180.00',190) [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.014427s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:47:54+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004183s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011778s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008506s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000907s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008319s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008699s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611674,1,'180.00',190) [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.008173s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:47:54+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003524s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009005s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008981s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000958s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008639s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.010562s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611674,1,'180.00',190) [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.013348s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:47:54+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004974s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.013661s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.015929s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.002490s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001798s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.014156s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.015113s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611674,1,'180.00',190) [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.012432s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:48:03+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008739s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.014584s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000935s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008527s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008790s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611683,1,'180.00',190) [ RunTime:0.000792s ]
+
+[ 2016-05-19T06:48:29+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003423s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008434s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008270s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001033s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.007821s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008408s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463611709,1,'180.00',190) [ RunTime:0.000794s ]
+
+[ 2016-05-19T06:55:01+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004864s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010368s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.010012s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000895s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.010525s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008940s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463612100,1,'180.00',190) [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.008849s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:55:01+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004097s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009295s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008557s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000878s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008773s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008567s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463612101,1,'180.00',190) [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.008222s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:55:01+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004032s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011126s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.013276s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001126s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.009550s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.009582s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463612101,1,'180.00',190) [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.010108s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:55:04+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003672s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009669s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.010735s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001027s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.010061s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.010574s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463612104,1,'180.00',190) [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `cz_order_goods` [ RunTime:0.011444s ]
+ERR: 非法数据对象！:[address_id=>1]
+
+[ 2016-05-19T06:55:45+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003184s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009581s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.010066s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001257s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.015105s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.015641s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES (1,1,1,'',1463612145,1,'180.00',190) [ RunTime:0.001417s ]
+
+[ 2016-05-19T09:20:36+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003413s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009570s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001081s ]
+
+[ 2016-05-19T09:20:47+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003295s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008984s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.062642s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.015640s ]
+
+[ 2016-05-19T09:28:24+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003299s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008630s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.008474s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '刘定邦' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.000922s ]
+
+[ 2016-05-19T09:28:43+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008518s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.007985s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000944s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008108s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.036006s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-05-19T09:28:44+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003562s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010348s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.015352s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001278s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.010141s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.009716s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-05-19T09:36:28+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003702s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008859s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008427s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000920s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008343s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008661s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1463621787,'1','180.00',190) [ RunTime:0.018210s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+
+[ 2016-05-19T09:36:34+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003786s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010518s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.010166s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001125s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.009977s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.012941s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1463621794,'1','180.00',190) [ RunTime:0.001288s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+
+[ 2016-05-19T09:38:13+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003564s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.010458s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008440s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.000914s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008573s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008671s ]
+SQL: INSERT INTO `cz_order` (`address_id`,`shipping_id`,`pay_id`,`postscripts`,`order_sn`,`user_id`,`goods_amount`,`order_amount`) VALUES ('1','1','1','',1463621893,'1','180.00',190) [ RunTime:0.000818s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\shop\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+
+[ 2016-05-19T09:40:49+08:00 ] ::1 /shop/index.php/Home/Shop/order
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003598s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.008282s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008502s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 1  [ RunTime:0.001013s ]
+SQL: SELECT SUM(subtotal) AS tp_sum FROM `cz_shopcart` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `cz_shipping` [ RunTime:0.008199s ]
+SQL: SELECT `shipping_fee` FROM `cz_shipping` WHERE ( shipping_id=1 ) LIMIT 1   [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.008138s ]
+
+[ 2016-05-19T12:51:32+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003753s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.042325s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '张三' AND `password` = 'a04e99f7f29a6e1d7db444264e77e2ad' LIMIT 1   [ RunTime:0.000355s ]
+
+[ 2016-05-19T12:51:50+08:00 ] ::1 /shop/index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003726s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.003261s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '张三' AND `password` = '864ce000907148c15695d87a552dcf5e' LIMIT 1   [ RunTime:0.000322s ]
+
+[ 2016-05-19T13:12:58+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004787s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.009145s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.008520s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.001025s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=7 ) [ RunTime:0.000838s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.000772s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=1000 WHERE ( goods_id=7 ) [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003217s ]
+
+[ 2016-05-19T13:13:32+08:00 ] ::1 /shop/index.php/Home/Shop/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005619s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.017334s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `cz_shopcart` [ RunTime:0.018371s ]
+SQL: SELECT * FROM `cz_shopcart` WHERE `user_id` = 2  [ RunTime:0.001354s ]
+SQL: UPDATE `cz_shopcart` SET `goods_num`=goods_num+1 WHERE ( goods_id=7 ) [ RunTime:0.001195s ]
+SQL: SELECT `goods_num`,`goods_price` FROM `cz_shopcart` WHERE ( goods_id=7 )  [ RunTime:0.001157s ]
+SQL: UPDATE `cz_shopcart` SET `subtotal`=2000 WHERE ( goods_id=7 ) [ RunTime:0.003809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004603s ]
+

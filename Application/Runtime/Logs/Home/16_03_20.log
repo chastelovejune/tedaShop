@@ -1,0 +1,48 @@
+[ 2016-03-20T10:14:50+08:00 ] ::1 /shop/index.php/Home/Cart
+ERR: Think\Controller:_initialize方法不存在！
+
+[ 2016-03-20T10:15:04+08:00 ] ::1 /shop/index.php/Home/Cart/index
+ERR: Think\Controller:_initialize方法不存在！
+
+[ 2016-03-20T10:20:05+08:00 ] ::1 /shop/index.php/Home/Cart/index
+ERR: 无法加载控制器:Cart
+
+[ 2016-03-20T10:20:07+08:00 ] ::1 /shop/index.php/Home/Cart
+ERR: 无法加载控制器:Cart
+
+[ 2016-03-20T10:20:08+08:00 ] ::1 /shop/index.php/Home/cart
+ERR: 无法加载控制器:Cart
+
+[ 2016-03-20T18:20:16+08:00 ] ::1 /shop/index.php/Home/Shop/shopCar
+ERR: 模板不存在:./Application/Home/View/Shop/shopCar.html
+
+[ 2016-03-20T18:22:23+08:00 ] ::1 /shop/index.php/Home/Shop/shopCar
+ERR: 模板不存在:./Application/Home/View/Shop/shopCar.html
+
+[ 2016-03-20T18:22:52+08:00 ] ::1 /shop/index.php/Home/Shop/css/shop_common.css
+ERR: 非法操作:css
+
+[ 2016-03-20T18:22:52+08:00 ] ::1 /shop/index.php/Home/Shop/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-03-20T18:22:52+08:00 ] ::1 /shop/index.php/Home/Shop/css/base.css
+ERR: 非法操作:css
+
+[ 2016-03-20T18:22:52+08:00 ] ::1 /shop/index.php/Home/Shop/css/shop_header.css
+ERR: 非法操作:css
+
+[ 2016-03-20T18:22:53+08:00 ] ::1 /shop/index.php/Home/Shop/css/shop_gouwuche.css
+ERR: 非法操作:css
+
+[ 2016-03-20T18:22:53+08:00 ] ::1 /shop/index.php/Home/Shop/js/topNav.js
+ERR: 非法操作:js
+
+[ 2016-03-20T18:22:53+08:00 ] ::1 /shop/index.php/Home/Shop/js/jquery.goodnums.js
+ERR: 非法操作:js
+
+[ 2016-03-20T18:22:53+08:00 ] ::1 /shop/index.php/Home/Shop/js/shop_gouwuche.js
+ERR: 非法操作:js
+
+[ 2016-03-20T18:44:36+08:00 ] ::1 /shop/index.php/Home/Shop/shopCar
+ERR: Think\Controller:assgin方法不存在！
+
